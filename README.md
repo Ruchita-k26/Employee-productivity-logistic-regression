@@ -89,6 +89,13 @@ Business Interpretation
 ```
 
 ---
+## Exploratory Data Analysis
+
+### Correlation Analysis
+
+The correlation heatmap shows the relationships between numerical variables in the dataset.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ## Model Used
 
@@ -121,6 +128,18 @@ The Logistic Regression model achieved the following results on the test dataset
 
 The model correctly classified the majority of test observations and achieved a strong ROC-AUC score, indicating good ability to distinguish between employees with and without productivity loss.
 
+### Confusion Matrix
+
+The confusion matrix shows the number of correctly and incorrectly classified observations for each class.
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### ROC Curve
+
+The ROC curve illustrates the model's ability to distinguish between employees with and without productivity loss.
+
+![ROC Curve](images/roc_curve.png)
+
 ---
 
 ## Key Evaluation Techniques
@@ -136,22 +155,6 @@ The model was evaluated using:
 * ROC Curve
 
 These metrics provide a broader view of model performance than accuracy alone.
-
----
-
-## Business Interpretation
-
-A model like this can help organizations identify employees who may be at higher risk of productivity loss.
-
-Potential business applications include:
-
-* Identifying productivity-related patterns.
-* Understanding workplace factors associated with productivity.
-* Supporting employee engagement initiatives.
-* Helping managers identify areas where additional support may be required.
-* Using data-driven insights to improve workplace productivity.
-
-The model should be treated as a **decision-support tool**, rather than as the sole basis for decisions about individual employees.
 
 ---
 

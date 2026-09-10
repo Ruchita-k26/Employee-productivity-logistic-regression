@@ -128,6 +128,8 @@ The Logistic Regression model achieved the following results on the test dataset
 
 The model correctly classified the majority of test observations and achieved a strong ROC-AUC score, indicating good ability to distinguish between employees with and without productivity loss.
 
+![Classification Report](images/classification_report.png)
+
 ### Confusion Matrix
 
 The confusion matrix shows the number of correctly and incorrectly classified observations for each class.
